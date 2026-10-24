@@ -1,5 +1,7 @@
 # 📊 Grade Tracker (C)
 
+> 🎓 Project for **CS 265 (Advanced Programming Tools and Techniques)** at **Drexel University**
+
 A command-line gradebook written in plain C. It loads grades from a text file into a linked list, lets you print, add, remove, and get stats on them, then saves everything back when you're done.
 
 I didn't use `<string.h>`. The string helpers (`my_strlen`, `my_strcpy`, `my_strcmp`) are written by hand with pointer arithmetic, and all memory for the linked list is managed manually with `malloc` and `free`.
